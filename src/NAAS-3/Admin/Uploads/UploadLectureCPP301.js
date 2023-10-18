@@ -19,7 +19,7 @@ function UploadLectureCPP301() {
      const saveForm = async (e) => {
       e.preventDefault();
        
-       axios.post("https://defiant-lime-tweed-jacket.cyclic.app/api/crp511/add", {Topic,Description,document})
+       axios.post("https://fair-erin-chameleon-gown.cyclic.app/api/cpp301/add", {Topic,Description,document})
       .then((res)=>
       { 
       console.log("saved succesfully!")

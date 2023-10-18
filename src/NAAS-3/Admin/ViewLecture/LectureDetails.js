@@ -23,7 +23,7 @@ function UploadAEC() {
   // i want to do yes or no alert here
   alert("This lecture will be deleted")
   try{
-    await axios.delete(`https://defiant-lime-tweed-jacket.cyclic.app/api/${data.Code}/${id}`);
+    await axios.delete(`https://fair-erin-chameleon-gown.cyclic.app/api/${data.Code}/${id}`);
     alert("Data deleted.")
     navigate("/");
     window.location.reload()

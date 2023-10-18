@@ -12,7 +12,7 @@ function AllComments() {
     const [getcomments, setgetcomments] =useState([])
 
   const getComments = async ()=> {
-    axios.get("https://easy-crown-bull.cyclic.app/api/comment/")
+    axios.get("https://fair-erin-chameleon-gown.cyclic.app/api/comment/")
     .then((res)=> setgetcomments(res.data) )
     .catch((err)=> console.log(err))
     
@@ -24,7 +24,7 @@ function AllComments() {
     const deleteUser = async (id) => {
         try
         {
-          await axios.delete(`https://easy-crown-bull.cyclic.app/api/comment/${id}`);
+          await axios.delete(`https://fair-erin-chameleon-gown.cyclic.app/api/comment/${id}`);
           alert("Comment deleted.")
             }catch (err) 
         {

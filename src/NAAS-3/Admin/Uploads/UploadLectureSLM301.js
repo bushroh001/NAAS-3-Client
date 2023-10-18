@@ -19,7 +19,7 @@ function UploadLectureSLM301() {
     const saveForm = async (e) => {
      e.preventDefault();
       
-      axios.post("https://defiant-lime-tweed-jacket.cyclic.app/api/crp512/add", {Topic,Description,document})
+      axios.post("https://fair-erin-chameleon-gown.cyclic.app/api/slm301/add", {Topic,Description,document})
      .then((res)=>
      { 
      console.log("saved succesfully")

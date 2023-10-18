@@ -47,7 +47,7 @@ function App() {
     const [loading, setloading] =useState(false)
 
     const getLectureAEC301 = async  () => {
-        axios.get("https://defiant-lime-tweed-jacket.cyclic.app/api/cpt503/")
+        axios.get("https://fair-erin-chameleon-gown.cyclic.app/api/aec301/")
         .then(res => {
           console.log(res.data)
           setLectureListAEC301(res.data)
@@ -58,7 +58,7 @@ function App() {
        }
          
        const getLectureAEC303 = async  () => {
-        axios.get("https://defiant-lime-tweed-jacket.cyclic.app/api/crp511/")
+        axios.get("https://fair-erin-chameleon-gown.cyclic.app/api/aec303/")
         .then(res => {
           console.log(res.data)
           setLectureListAEC303(res.data)
@@ -69,7 +69,7 @@ function App() {
        }
   
        const getLectureANS301 = async  () => {
-        axios.get("https://defiant-lime-tweed-jacket.cyclic.app/api/crp512/")
+        axios.get("https://fair-erin-chameleon-gown.cyclic.app/api/ans301/")
         .then(res => {
           console.log(res.data)
           setLectureListANS301(res.data)
@@ -80,7 +80,7 @@ function App() {
        }
   
        const getLectureAXD301 = async  () => {
-        axios.get("https://defiant-lime-tweed-jacket.cyclic.app/api/crp405/")
+        axios.get("https://fair-erin-chameleon-gown.cyclic.app/api/axd301/")
         .then(res => {
           console.log(res.data)
           setLectureListAXD301(res.data)
@@ -91,7 +91,7 @@ function App() {
        }
   
        const getLectureCPP301 = async  () => {
-        axios.get("https://defiant-lime-tweed-jacket.cyclic.app/api/crp304/")
+        axios.get("https://fair-erin-chameleon-gown.cyclic.app/api/cpp301/")
         .then(res => {
           console.log(res.data)
           setLectureListCPP301(res.data)
@@ -102,7 +102,7 @@ function App() {
        }
   
        const getLectureCPP303 = async  () => {
-        axios.get("https://defiant-lime-tweed-jacket.cyclic.app/api/crp305/")
+        axios.get("https://fair-erin-chameleon-gown.cyclic.app/api/cpp303/")
         .then(res => {
           console.log(res.data)
           setLectureListCPP303(res.data)
@@ -113,7 +113,7 @@ function App() {
        }
   
        const getLectureSLM301 = async  () => {
-          axios.get("https://defiant-lime-tweed-jacket.cyclic.app/api/crp305/")
+          axios.get("https://fair-erin-chameleon-gown.cyclic.app/api/slm301/")
           .then(res => {
             console.log(res.data)
             setLectureListSLM301(res.data)

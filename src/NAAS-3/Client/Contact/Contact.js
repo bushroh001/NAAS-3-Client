@@ -36,17 +36,17 @@ function Contact() {
         </div>
         </a>
 
-        <a href="mailto:bellooladimeji53@gmail.com">
+        <a href="mailto:bellomuhyideen0001@gmail.com">
         <div className='flex items-center px-4 pt-2 gap-x-2'>
           <h1 className='text-[#c71610] text-xl'><AiOutlineMail/></h1>
-          <h1>Bellooladimeji2019@gmail.com</h1>
+          <h1>Bellomuhyideen0001@gmail.com</h1>
         </div>
        </a>
 
-      <a href='tel:+2348139116879'>
+      <a href='tel:+2349164028709'>
         <div className='flex items-center px-4 pt-2 pb-2 gap-x-2'>
           <h1 className='text-[#0ebe2c] text-xl'><BsFillTelephoneFill/></h1>
-          <h1>Telephone Number : 08139116879</h1>
+          <h1>Telephone Number : 09164028709</h1>
         </div>
        </a>
 

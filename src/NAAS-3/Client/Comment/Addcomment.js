@@ -19,7 +19,7 @@ function Addcomment() {
   const submit = (e) => {
     e.preventDefault()
     setLoading(true)
-    axios.post(`https://easy-crown-bull.cyclic.app/api/comment/addcomment`,{Name,School,Department,Level,Comment})
+    axios.post(`https://crazy-plum-cloak.cyclic.app/api/comment/addcomment`,{Name,School,Department,Level,Comment})
     .then((res)=>
     { 
     console.log("saved succesfully")

@@ -1,6 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router ,Route, Routes, } from "react-router-dom"
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import Navbar from './NAAS-3/Admin/header/Navbar'
 import Upload from './NAAS-3/Admin/Uploads/Upload'
@@ -30,7 +30,7 @@ import UploadLectureSLM301 from './NAAS-3/Admin/Uploads/UploadLectureSLM301'
 
 import Footer from './NAAS-3/Admin/Footer/Footer'
 import axios from 'axios'
-import AllComments from './AllComments'
+import AllComments from './NAAS-3/Admin/AllComments'
 
 
 function App() {

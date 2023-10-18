@@ -35,18 +35,18 @@ function AllComments() {
       }
 
   return (
-    <div className='bg-gradient-to-t min-h-screen from-white to-[#fffadd] flex flex-col items-center '>
-      <h1 className='font-bold text-xl pt-5 text-[#7f030d] text-center'> Comments from the Users.</h1>
+    <div className='bg-[#f5f5f5] w-full text-[#182c25] min-h-screen flex flex-col items-center '>
+      <h1 className='font-bold text-xl pt-5 font-josefins text-center'> Comments from the Users.</h1>
       {
         getcomments.map((comment)=>(
           <div className="shadow-sm 
-          p-5  m-3 border-l-8 border-2 border-[#7f030d] w-[300px] sm:w-[350px] flex flex-col justify-center items-center rounded-lg"key={comment._id} data-aos="zoom-in">
-            <ol className="text-sm font-semiold flex flex-col items-center justify-center text-[#7f030d]">
-                <li>   <span className="text-center font-bold text-[#7f030d]  capitalize"> {comment.Name}</span> </li>
-                <li>   <span className=" text-center font-semibold text-[#7f030d] " >{comment.School}</span> </li>
-                <li>   <span className="italic text-center font-bold text-[#7f030d] " >{comment.Department}</span></li>
-                <li>  <span className=" text-center font-semibold text-[#7f030d] " >Level: {comment.Level} </span> </li>
-                <li>    <span className=" text-center text-[#7f030d] "><Typewriter 
+          p-5  m-3 border-l-8 border-2 border-[#182c25] w-[300px] sm:w-[350px] flex flex-col justify-center items-center rounded-lg"key={comment._id} data-aos="zoom-in">
+            <ol className="text-sm font-semiold flex flex-col items-center justify-center text-[#182c25]">
+                <li>   <span className="text-center font-bold font-josefins  capitalize"> {comment.Name}</span> </li>
+                <li>   <span className=" text-center font-semibold font-josefins " >{comment.School}</span> </li>
+                <li>   <span className="italic text-center font-bold font-josefins " >{comment.Department}</span></li>
+                <li>  <span className=" text-center font-semibold font-josefins" >Level: {comment.Level} </span> </li>
+                <li>    <span className=" text-center font-josefins"><Typewriter 
              options={{
               autoStart:true,
               loop:false,
@@ -58,7 +58,7 @@ function AllComments() {
             </ol>
 
             <button onClick={()=>deleteUser(comment._id)}
-             className="bg-[#7f030d] text-[#fefbe9] mt-3 rounded-md px-2 py-1">Delete</button>
+             className="bg-[#182c25] text-[#fefbe9] mt-3 rounded-md px-2 py-1">Delete</button>
         </div>
         ))
       

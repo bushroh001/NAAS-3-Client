@@ -35,33 +35,34 @@ function UploadAEC() {
 }
   return (
     <div className='min-h-screen bg-[#f5f5f5]'>
-        <h1 className=' text-center font-bold w-full pb-1 font-montserat text-white bg-gradient-to-r from-indigo-800 to-cyan-600 pt-1 px-2 text-xl'>Lecture Note</h1>
-        <div className='flex min-h-screen font-josefins justify-center items-center'>
-          <div className='flex flex-col  shadow-lg w-[311px] h-fit border-2 border-indigo-800 bg-white   items-center rounded-[32px]'>
-       
-       
-        {/*  */}
-         <div className=' text-center text-indigo-800 mt-[37.5px]'>
-          <h1 className='font-medium text-xl'>{data.CourseCode}</h1>
-          <h1 className='font-medium text-xl'>{data.CourseTitle}</h1>
-        </div>
-        
-        
-        
-         {/*  form */}
-         <div className=''>
-         <form onSubmit={HandleSubmit} className='w-[220px] mt-[30.5px]'>
+    <h1 className=' text-center font-bold w-full pb-1 font-montserat text-white bg-gradient-to-r from-[#182c25] to-[#1e453e]  pt-1 px-2 text-xl'>Lecture Note</h1>
+    <div className='flex min-h-screen font-josefins justify-center items-center'>
+      <div className='flex flex-col  shadow-lg w-[311px] h-fit border-2 border-[#182c25] bg-white text-[#182c25]  items-center rounded-[32px]'>
+   
+   
+    {/*  */}
+     <div className=' text-center  mt-[37.5px]'>
+      <h1 className='font-medium text-xl'>{data.CourseCode}</h1>
+      <h1 className='font-medium text-xl'>{data.CourseTitle}</h1>
+    </div>
+    
+    
+    
+     {/*  form */}
+     <div className=''>
+     <form onSubmit={HandleSubmit} className='w-[220px] mt-[30.5px]'>
 
-          <h1 className='w-full  text-[15px] font-bold  text-indigo-700 '>{data.Topic}  </h1>
-          <p className='w-full  text-[14px] pt-[18px]  text-indigo-700 '> {data.Description}  </p>
+      <h1 className='w-full  text-[15px] font-bold   '>{data.Topic}  </h1>
+      <p className='w-full  text-[14px] pt-[18px] '> {data.Description}  </p>
 
 
-             {/* View file= pdf/word and download*/}
+         {/* View file= pdf/word and download*/}
 
-             <div className='flex justify-between mt-[15px] items-center'>
+         <div className='flex justify-between mt-[15px] items-center'>
 
-        <a href={data.document[0].url} download={data.Topic}  className={"text-xl p-1 text-indigo-800"}><span className='flex gap-x-1 justify-center tracking-wider  text-[14px] items-center'>Download File<BiDownload/></span></a>
-             </div>
+    <a href={data.document[0].url} download={data.Topic}  className={"text-xl p-1 "}><span className='flex gap-x-1 justify-center tracking-wider  text-[14px] items-center'>Download File<BiDownload/></span></a>
+         </div>
+
 
              
       
@@ -69,9 +70,9 @@ function UploadAEC() {
                <div className='flex justify-between  my-[15px]  mb-[15px] items-center'>
                <Link to="/view">
                 
-             <button className='p-[3px] bg-indigo-800 hover:text-indigo-800 duration-300 transition-colors focus:outline-0 hover:border-[0.5px] border-indigo-800 hover:bg-white  rounded-lg'>Back</button>
+             <button className='p-[3px] bg-[#182c25] hover:text-[#182c25] duration-300 transition-colors focus:outline-0 hover:border-[0.5px] border-[#182c25] hover:bg-white  rounded-lg'>Back</button>
                </Link>
-             <button onClick={()=>deleteUser(data._id)} className='p-[3px] bg-indigo-800 duration-300 transition-colors focus:outline-0 hover:text-indigo-800 hover:border-[1px] hover:bg-white hover:border-red-500 rounded-lg'>delete</button>
+             <button onClick={()=>deleteUser(data._id)} className='p-[3px] bg-[#182c25] duration-300 transition-colors focus:outline-0 hover:text-[#182c25] hover:border-[1px] hover:bg-white hover:border-red-500 rounded-lg'>delete</button>
                </div>
             </form>
          </div>

@@ -15,7 +15,7 @@ function AllComments() {
     const deleteUser = async (id) => {
         try
         {
-          await axios.delete(`https://crazy-plum-cloak.cyclic.app/api/comment/${id}`);
+          await axios.delete(`https://fair-erin-chameleon-gown.cyclic.app/api/comment/${id}`);
           alert("Comment deleted.")
             }catch (err) 
         {

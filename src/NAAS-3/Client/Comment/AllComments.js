@@ -34,11 +34,11 @@ function AllComments() {
           <div className="shadow-sm text-[#182c25]
           p-5  m-3 border-l-8 border-2 border-[#182c25] w-[300px] sm:w-[350px] flex flex-col justify-center items-center rounded-lg"key={comment._id} data-aos="zoom-in">
             <ol className="text-sm font-semiold flex flex-col items-center justify-center ">
-                <li>   <span className="text-center font-bold   capitalize"> {comment.Name}</span> </li>
-                <li>   <span className=" text-center font-semibold " >{comment.School}</span> </li>
-                <li>   <span className="italic text-center font-bold  " >{comment.Department}</span></li>
-                <li>  <span className=" text-center font-semibold " >Level: {comment.Level} </span> </li>
-                <li>    <span className=" text-center  "><Typewriter 
+                <li>   <span className="text-center font-bold   font-josefins capitalize"> {comment.Name}</span> </li>
+                <li>   <span className=" text-center font-josefins font-semibold " >{comment.School}</span> </li>
+                <li>   <span className="italic text-center font-josefins font-bold  " >{comment.Department}</span></li>
+                <li>  <span className=" text-center font-josefins font-semibold " >Level: {comment.Level} </span> </li>
+                <li>    <span className=" text-center font-josefins "><Typewriter 
              options={{
               autoStart:true,
               loop:false,
@@ -49,8 +49,7 @@ function AllComments() {
            </span> </li>
             </ol>
 
-            <button onClick={()=>deleteUser(comment._id)}
-             className="bg-[#182c25] text-white mt-3 focus:outline-0 rounded-md px-2 py-1">Delete</button>
+        
         </div>
         ))
       

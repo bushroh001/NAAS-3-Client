@@ -9,7 +9,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 const Comment = () => {
     const [open , setOpen]= useState("New comment")
     return (
-      <div className='min-h-[1000px] font-josefins bg-[#f5f5f5]'>
+      <div className='min-h-[900px] font-josefins bg-[#f5f5f5]'>
      <div className='flex items-center justify-center relative'>
       <div className='bg-gradient-to-tr from-[#182c25] to-[#5db6a6]  flex items-center justify-center h-[189px] w-full rounded-b-[25px]'>
       </div>

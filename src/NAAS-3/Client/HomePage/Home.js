@@ -66,9 +66,15 @@ function Home(props) {
                          </Link>
                             </button>
                             </div>
-                        </div>
+                    </div>
                         ))
                     }
+                          
+<div>
+    <Link to=> 
+          <button>View all lectures</button> 
+      </Link>
+  </div>
 
 
                              {/* AEC 303*/}

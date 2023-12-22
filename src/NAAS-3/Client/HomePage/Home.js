@@ -70,9 +70,9 @@ function Home(props) {
                         ))
                     }
                           
-<div>
+<div className="flex items-center justifiy-end px-1 py-1 font-semibold font-joseffins text-[12px] ">
     <Link to="/view"> 
-          <button>View all lectures</button> 
+          <button> View all lectures</button> 
       </Link>
   </div>
 

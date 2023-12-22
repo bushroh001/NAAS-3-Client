@@ -71,7 +71,7 @@ function Home(props) {
                     }
                           
 <div>
-    <Link to=> 
+    <Link to="/view"> 
           <button>View all lectures</button> 
       </Link>
   </div>

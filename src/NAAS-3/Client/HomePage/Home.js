@@ -72,7 +72,7 @@ function Home(props) {
                           
 <div className="flex items-center justify-end px-3 py-2 font-semibold font-jost text-[13px] ">
     <Link to="/view"> 
-          <button ClassName= "border-2 border-[#182c25] px-2 py-2 text-center">Click here to view all</button> 
+          <button ClassName= "border-2 border-[#182c25] bg-white px-2 py-2 text-center">Click here to view all</button> 
       </Link>
   </div>
 
@@ -108,6 +108,12 @@ function Home(props) {
                         </div>
                         ))
                     }
+                          
+<div className="flex items-center justify-end px-3 py-2 font-semibold font-jost text-[13px] ">
+    <Link to="/view"> 
+          <button ClassName= "border-2 border-[#182c25] bg-white px-2 py-2 text-center">Click here to view all</button> 
+      </Link>
+  </div>
 
 
                              {/* ANS 301*/}
@@ -141,7 +147,13 @@ function Home(props) {
                         </div>
                         ))
                     }  
-                    
+
+                          
+<div className="flex items-center justify-end px-3 py-2 font-semibold font-jost text-[13px] ">
+    <Link to="/view"> 
+          <button ClassName= "border-2 border-[#182c25] bg-white px-2 py-2 text-center">Click here to view all</button> 
+      </Link>
+  </div>
                     
                      {/* AXD 301*/}
   <h1 className='text-center font-bold text-white bg-gradient-to-r font-montserat from-[#182c25] to-[#1e453e] '> Extension Teaching & Learning Process and Methods.  (AXD 301)</h1>
@@ -174,6 +186,12 @@ function Home(props) {
                         </div>
                         ))
                     }  
+                          
+<div className="flex items-center justify-end px-3 py-2 font-semibold font-jost text-[13px] ">
+    <Link to="/view"> 
+          <button ClassName= "border-2 border-[#182c25] bg-white px-2 py-2 text-center">Click here to view all</button> 
+      </Link>
+  </div>
                     
                              {/*  (CPP301)*/}
 <h1 className='text-center font-bold text-white bg-gradient-to-r font-montserat from-[#182c25] to-[#1e453e]'> Agronomy of Arable Crops & Agro-climatology. (CPP 301)</h1>
@@ -206,6 +224,13 @@ function Home(props) {
                         </div>
                         ))
                     }  
+                          
+<div className="flex items-center justify-end px-3 py-2 font-semibold font-jost text-[13px] ">
+    <Link to="/view"> 
+          <button ClassName= "border-2 border-[#182c25] bg-white px-2 py-2 text-center">Click here to view all</button> 
+      </Link>
+  </div>
+
                              {/* CPP 303*/}
   <h1 className='text-center font-bold bg-gradient-to-r font-montserat text-white from-[#182c25] to-[#1e453e] '>Introductory Agricultural Entomology. (CPP 303)</h1>
             
@@ -237,6 +262,13 @@ function Home(props) {
                         </div>
                         ))
                     }
+                          
+<div className="flex items-center justify-end px-3 py-2 font-semibold font-jost text-[13px] ">
+    <Link to="/view"> 
+          <button ClassName= "border-2 border-[#182c25] bg-white px-2 py-2 text-center">Click here to view all</button> 
+      </Link>
+  </div>
+
                                 {/* SLM301 */}
        <h1 className='text-center font-bold text-white bg-gradient-to-r font-montserat from-[#182c25] to-[#1e453e] '>Introductory Pedology and Soil Physics. (SLM 301)</h1>
             
@@ -268,6 +300,13 @@ function Home(props) {
                         </div>
                         ))
                     }   
+                                                    
+<div className="flex items-center justify-end px-3 py-2 font-semibold font-jost text-[13px] ">
+    <Link to="/view"> 
+          <button ClassName= "border-2 border-[#182c25] bg-white px-2 py-2 text-center">Click here to view all</button> 
+      </Link>
+  </div>
+                          
 </div>
 )
 }
